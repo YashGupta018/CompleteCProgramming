@@ -3,8 +3,8 @@
 
 int main() {
     
-    int age = 42;
-    double sgpa = 8.9;
+    int age = 42; //long, short, signed, unsigned
+    double sgpa = 8.9; //float 
     char grade = 'A';
     char phrase[] = "Hi guy";
 
