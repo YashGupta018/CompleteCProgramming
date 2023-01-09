@@ -36,7 +36,7 @@ int main () {
 }
 
 int main () {
-    printf ("%d", max (4, 10));
+    printf ("%d", max (4, 10, 6));
     return 0;
 }*/
 
@@ -93,10 +93,11 @@ int main() {
 //User Input (for 3 numbers)
 // *optimised*
 int max(int num1, int num2, int num3) {
-    if(num1 > num2 && num1 > num3) {
+    if(num1 > num2 && num1 > num3) { // In C Programming we have opwrators like : [ && , || , > , < , >= , <= , == , != ]
             printf("Num1 is bigger than num2 and num3\n");
         }
-    else if(num2 > num1 && num2 > num3) {
+    else if(num2 > num1 && num2 > num3) {// Also there is somthing called negating operator for example (!(num2 > num1))
+    // In the above case if num2 is bigger than num1 then the output will be nothing but if we do this (!(num2 < num1)) now its TRUE
         printf("Num2 is bigger than num1 and num3\n");
     }
     else {
